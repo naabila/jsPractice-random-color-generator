@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hex-color-container,
+.rgba-color-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.content {
+    align-self: center;
+    text-align: center;
+    background-color: gray;
+    color: #fff;
+    padding: 2rem 5rem;
+    border-radius: 1rem;
+}
+button.hex-btn,
+button.rgba-btn {
+    background: #ff4900;
+    border: navajowhite;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}
